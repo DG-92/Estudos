@@ -1,0 +1,18 @@
+1683744305062	geckodriver	INFO	Listening on 127.0.0.1:51975
+1683744308112	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51976" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Douglas\\AppData\\Local\\Temp\\rust_mozprofilexA80lT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1683744308374	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1683744308378	Marionette	INFO	Listening on port 51985
+Read port: 51985
+WebDriver BiDi listening on ws://127.0.0.1:51976
+1683744308538	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Douglas\\AppData\\Local\\Temp\\rust_mozprofilexA80lT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51976/devtools/browser/63f052ed-627c-463c-8361-54decb24754b
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:3000."
+console.error: (new Error("Polling for changes failed: NetworkError: Network request failed.", "resource://services-settings/remote-settings.js", 334))
+1683744818587	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+1683747958179	Marionette	INFO	Stopped listening on port 51985
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

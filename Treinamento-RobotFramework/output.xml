@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.5 on win32)" generated="20230510 18:33:30.455" rpa="false" schemaversion="3">
+<suite id="s1" name="Preenchimento Correto" source="c:\Users\Douglas\Documents\CURSO-ROBOT\test\preenchimento_correto.robot">
+<test id="s1-t1" name="Verificar se ao preencher os campos do formulário corretamente os dados são inseridos na lista e se um novo card é criado no time esperado" line="9">
+<kw name="Dado que eu acesso o Organo" library="setup_teardown" type="SETUP">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>url=http://localhost:3000/</arg>
+<arg>browser=Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230510 18:33:31.144" level="INFO">Opening browser 'Chrome' to base url 'http://localhost:3000/'.</msg>
+<msg timestamp="20230510 18:33:34.285" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20230510 18:33:34.286" level="FAIL">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 94
+Current browser version is 113.0.5672.93 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x004BB9D3+2472403]
+	Ordinal0 [0x00456961+2058593]
+	Ordinal0 [0x003622B8+1057464]
+	Ordinal0 [0x003803FA+1180666]
+	Ordinal0 [0x0037C2E5+1164005]
+	Ordinal0 [0x00379B7F+1153919]
+	Ordinal0 [0x003A997F+1350015]
+	Ordinal0 [0x003A95EA+1349098]
+	Ordinal0 [0x003A545B+1332315]
+	Ordinal0 [0x00381FB4+1187764]
+	Ordinal0 [0x00382E09+1191433]
+	GetHandleVerifier [0x00643396+1551078]
+	GetHandleVerifier [0x006ED53A+2247818]
+	GetHandleVerifier [0x00547FBB+521995]
+	GetHandleVerifier [0x00547079+518089]
+	Ordinal0 [0x0045BD4D+2080077]
+	Ordinal0 [0x0045FC18+2096152]
+	Ordinal0 [0x0045FD52+2096466]
+	Ordinal0 [0x004694B1+2135217]
+	BaseThreadInitThunk [0x762F0099+25]
+	RtlGetAppContainerNamedObjectPath [0x77B67B6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77B67B3E+238]
+</msg>
+<status status="FAIL" starttime="20230510 18:33:31.144" endtime="20230510 18:33:34.299"/>
+</kw>
+<status status="FAIL" starttime="20230510 18:33:31.143" endtime="20230510 18:33:34.300"/>
+</kw>
+<kw name="Fechar o navegador" library="setup_teardown" type="TEARDOWN">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20230510 18:33:34.301" endtime="20230510 18:33:34.302"/>
+</kw>
+<status status="PASS" starttime="20230510 18:33:34.301" endtime="20230510 18:33:34.302"/>
+</kw>
+<status status="FAIL" starttime="20230510 18:33:31.142" endtime="20230510 18:33:34.302">Setup failed:
+SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 94
+Current browser version is 113.0.5672.93 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x004BB9D3+2472403]
+	Ordinal0 [0x00456961+2058593]
+	Ordinal0 [0x003622B8+1057464]
+	Ordinal0 [0x003803FA+1180666]
+	Ordinal0 [0x0037C2E5+1164005]
+	Ordinal0 [0x00379B7F+1153919]
+	Ordinal0 [0x003A997F+1350015]
+	Ordinal0 [0x003A95EA+1349098]
+	Ordinal0 [0x003A545B+1332315]
+	Ordinal0 [0x00381FB4+1187764]
+	Ordinal0 [0x00382E09+1191433]
+	GetHandleVerifier [0x00643396+1551078]
+	GetHandleVerifier [0x006ED53A+2247818]
+	GetHandleVerifier [0x00547FBB+521995]
+	GetHandleVerifier [0x00547079+518089]
+	Ordinal0 [0x0045BD4D+2080077]
+	Ordinal0 [0x0045FC18+2096152]
+	Ordinal0 [0x0045FD52+2096466]
+	Ordinal0 [0x004694B1+2135217]
+	BaseThreadInitThunk [0x762F0099+25]
+	RtlGetAppContainerNamedObjectPath [0x77B67B6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77B67B3E+238]
+</status>
+</test>
+<test id="s1-t2" name="Verificar se é possivel criar mais de um card se preencharmos os campos corretamente" line="15">
+<kw name="Dado que eu acesso o Organo" library="setup_teardown" type="SETUP">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>url=http://localhost:3000/</arg>
+<arg>browser=Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230510 18:33:34.307" level="INFO">Opening browser 'Chrome' to base url 'http://localhost:3000/'.</msg>
+<msg timestamp="20230510 18:33:37.416" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20230510 18:33:37.416" level="FAIL">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 94
+Current browser version is 113.0.5672.93 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x004BB9D3+2472403]
+	Ordinal0 [0x00456961+2058593]
+	Ordinal0 [0x003622B8+1057464]
+	Ordinal0 [0x003803FA+1180666]
+	Ordinal0 [0x0037C2E5+1164005]
+	Ordinal0 [0x00379B7F+1153919]
+	Ordinal0 [0x003A997F+1350015]
+	Ordinal0 [0x003A95EA+1349098]
+	Ordinal0 [0x003A545B+1332315]
+	Ordinal0 [0x00381FB4+1187764]
+	Ordinal0 [0x00382E09+1191433]
+	GetHandleVerifier [0x00643396+1551078]
+	GetHandleVerifier [0x006ED53A+2247818]
+	GetHandleVerifier [0x00547FBB+521995]
+	GetHandleVerifier [0x00547079+518089]
+	Ordinal0 [0x0045BD4D+2080077]
+	Ordinal0 [0x0045FC18+2096152]
+	Ordinal0 [0x0045FD52+2096466]
+	Ordinal0 [0x004694B1+2135217]
+	BaseThreadInitThunk [0x762F0099+25]
+	RtlGetAppContainerNamedObjectPath [0x77B67B6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77B67B3E+238]
+</msg>
+<status status="FAIL" starttime="20230510 18:33:34.306" endtime="20230510 18:33:37.417"/>
+</kw>
+<status status="FAIL" starttime="20230510 18:33:34.306" endtime="20230510 18:33:37.418"/>
+</kw>
+<kw name="Fechar o navegador" library="setup_teardown" type="TEARDOWN">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20230510 18:33:37.419" endtime="20230510 18:33:37.419"/>
+</kw>
+<status status="PASS" starttime="20230510 18:33:37.418" endtime="20230510 18:33:37.419"/>
+</kw>
+<status status="FAIL" starttime="20230510 18:33:34.305" endtime="20230510 18:33:37.419">Setup failed:
+SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 94
+Current browser version is 113.0.5672.93 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x004BB9D3+2472403]
+	Ordinal0 [0x00456961+2058593]
+	Ordinal0 [0x003622B8+1057464]
+	Ordinal0 [0x003803FA+1180666]
+	Ordinal0 [0x0037C2E5+1164005]
+	Ordinal0 [0x00379B7F+1153919]
+	Ordinal0 [0x003A997F+1350015]
+	Ordinal0 [0x003A95EA+1349098]
+	Ordinal0 [0x003A545B+1332315]
+	Ordinal0 [0x00381FB4+1187764]
+	Ordinal0 [0x00382E09+1191433]
+	GetHandleVerifier [0x00643396+1551078]
+	GetHandleVerifier [0x006ED53A+2247818]
+	GetHandleVerifier [0x00547FBB+521995]
+	GetHandleVerifier [0x00547079+518089]
+	Ordinal0 [0x0045BD4D+2080077]
+	Ordinal0 [0x0045FC18+2096152]
+	Ordinal0 [0x0045FD52+2096466]
+	Ordinal0 [0x004694B1+2135217]
+	BaseThreadInitThunk [0x762F0099+25]
+	RtlGetAppContainerNamedObjectPath [0x77B67B6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77B67B3E+238]
+</status>
+</test>
+<test id="s1-t3" name="Verificar se é possivel criar um card para cada time disponível se preenchermos os campos corretamente" line="20">
+<kw name="Dado que eu acesso o Organo" library="setup_teardown" type="SETUP">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>url=http://localhost:3000/</arg>
+<arg>browser=Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230510 18:33:37.423" level="INFO">Opening browser 'Chrome' to base url 'http://localhost:3000/'.</msg>
+<msg timestamp="20230510 18:33:40.524" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20230510 18:33:40.524" level="FAIL">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 94
+Current browser version is 113.0.5672.93 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x004BB9D3+2472403]
+	Ordinal0 [0x00456961+2058593]
+	Ordinal0 [0x003622B8+1057464]
+	Ordinal0 [0x003803FA+1180666]
+	Ordinal0 [0x0037C2E5+1164005]
+	Ordinal0 [0x00379B7F+1153919]
+	Ordinal0 [0x003A997F+1350015]
+	Ordinal0 [0x003A95EA+1349098]
+	Ordinal0 [0x003A545B+1332315]
+	Ordinal0 [0x00381FB4+1187764]
+	Ordinal0 [0x00382E09+1191433]
+	GetHandleVerifier [0x00643396+1551078]
+	GetHandleVerifier [0x006ED53A+2247818]
+	GetHandleVerifier [0x00547FBB+521995]
+	GetHandleVerifier [0x00547079+518089]
+	Ordinal0 [0x0045BD4D+2080077]
+	Ordinal0 [0x0045FC18+2096152]
+	Ordinal0 [0x0045FD52+2096466]
+	Ordinal0 [0x004694B1+2135217]
+	BaseThreadInitThunk [0x762F0099+25]
+	RtlGetAppContainerNamedObjectPath [0x77B67B6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77B67B3E+238]
+</msg>
+<status status="FAIL" starttime="20230510 18:33:37.423" endtime="20230510 18:33:40.525"/>
+</kw>
+<status status="FAIL" starttime="20230510 18:33:37.423" endtime="20230510 18:33:40.526"/>
+</kw>
+<kw name="Fechar o navegador" library="setup_teardown" type="TEARDOWN">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20230510 18:33:40.527" endtime="20230510 18:33:40.527"/>
+</kw>
+<status status="PASS" starttime="20230510 18:33:40.526" endtime="20230510 18:33:40.527"/>
+</kw>
+<status status="FAIL" starttime="20230510 18:33:37.422" endtime="20230510 18:33:40.527">Setup failed:
+SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 94
+Current browser version is 113.0.5672.93 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x004BB9D3+2472403]
+	Ordinal0 [0x00456961+2058593]
+	Ordinal0 [0x003622B8+1057464]
+	Ordinal0 [0x003803FA+1180666]
+	Ordinal0 [0x0037C2E5+1164005]
+	Ordinal0 [0x00379B7F+1153919]
+	Ordinal0 [0x003A997F+1350015]
+	Ordinal0 [0x003A95EA+1349098]
+	Ordinal0 [0x003A545B+1332315]
+	Ordinal0 [0x00381FB4+1187764]
+	Ordinal0 [0x00382E09+1191433]
+	GetHandleVerifier [0x00643396+1551078]
+	GetHandleVerifier [0x006ED53A+2247818]
+	GetHandleVerifier [0x00547FBB+521995]
+	GetHandleVerifier [0x00547079+518089]
+	Ordinal0 [0x0045BD4D+2080077]
+	Ordinal0 [0x0045FC18+2096152]
+	Ordinal0 [0x0045FD52+2096466]
+	Ordinal0 [0x004694B1+2135217]
+	BaseThreadInitThunk [0x762F0099+25]
+	RtlGetAppContainerNamedObjectPath [0x77B67B6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77B67B3E+238]
+</status>
+</test>
+<status status="FAIL" starttime="20230510 18:33:30.459" endtime="20230510 18:33:40.531"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="3" skip="0" id="s1" name="Preenchimento Correto">Preenchimento Correto</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
